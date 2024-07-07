@@ -8,13 +8,13 @@ export default function Home() {
       {/* TODO: OTP Verification | PasskeyModal */}
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
-          <Image
-            src="/assets/icons/logo-full.svg"
+          {/* <Image
+            src="/assets/images/logo.webp"
             alt="patient"
             width={1000}
             height={1000}
             className="mb-12 h-10 w-fit"
-          />
+          /> */}
 
           <PatientForm />
 
@@ -30,7 +30,7 @@ export default function Home() {
       </section>
 
       <Image
-        src="/assets/images/onboarding-img.png"
+        src="/assets/images/gambarDoktor.png"
         height={1000}
         width={1000}
         alt="patient"

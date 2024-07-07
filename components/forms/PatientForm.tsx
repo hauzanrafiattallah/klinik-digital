@@ -58,8 +58,8 @@ const PatientForm = () => {
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 flex-1">
         <section className="mb-12 space-y-4">
-          <h1 className="header">Halo 👋</h1>
-          <p className="text-dark-700">Jadwalkan janji temu pertama Anda</p>
+          <h1 className="header">Selamat Datang </h1>
+          <p className="text-dark-700">Jadwalkan Janji Temu Pertama Anda</p>
         </section>
 
         <CustomFormField
@@ -67,7 +67,7 @@ const PatientForm = () => {
           control={form.control}
           name="name"
           label="Nama Lengkap"
-          placeholder="Masukan Nama Anda"
+          placeholder="Masukan Nama "
           iconSrc="/assets/icons/user.svg"
           iconAlt="user"
         />
@@ -77,7 +77,7 @@ const PatientForm = () => {
           control={form.control}
           name="email"
           label="Email"
-          placeholder="Masukan Email Anda"
+          placeholder="Masukan Email"
           iconSrc="/assets/icons/email.svg"
           iconAlt="email"
         />
@@ -87,7 +87,7 @@ const PatientForm = () => {
           control={form.control}
           name="phone"
           label="Telepon"
-          placeholder="Masukan No Telepon Anda"
+          placeholder="Masukan No Telepon"
         />
 
         <SubmitButton isLoading={isLoading}>Get Started</SubmitButton>
