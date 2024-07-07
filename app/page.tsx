@@ -9,7 +9,7 @@ export default function Home() {
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
           {/* <Image
-            src="/assets/images/logo.webp"
+            src="/assets/icons/logo-full.svg"
             alt="patient"
             width={1000}
             height={1000}
